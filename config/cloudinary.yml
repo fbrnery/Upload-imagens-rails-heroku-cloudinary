@@ -1,0 +1,18 @@
+development:
+  cloud_name: dkpiau8f9
+  api_key: '337439994531178'
+  api_secret: "2CbVskfjBvGklXnm68pBJgCB22w"
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: dkpiau8f9
+  api_key: '337439994531178'
+  api_secret: "2CbVskfjBvGklXnm68pBJgCB22w"
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: dkpiau8f9
+  api_key: '337439994531178'
+  api_secret: "2CbVskfjBvGklXnm68pBJgCB22w"
+  enhance_image_tag: true
+  static_file_support: false
