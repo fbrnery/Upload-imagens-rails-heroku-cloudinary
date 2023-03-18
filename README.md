@@ -29,24 +29,22 @@
 # Adicione a Imagem de Destaque ao Model Post, em (app/models/post.rb) coloque:
 
 - class Post < ApplicationRecord
-  has_one_attached :avatar
-end
+- has_one_attached :avatar
+- end
 
 # Atualize a permissão de parâmetros para conseguir salvar o que foi adicionado (app/controllers/posts_controller.rb): #
 
-- # Only allow a list of trusted parameters through.
-def post_params
-  params.require(:post).permit(:title, :author, :avatar)
-end
+- def post_params
+-  params.require(:post).permit(:title, :author, :avatar)
+- end
 
 # Ajustando as Views
-Agora você irá alterar o conteúdo das views para melhorar a visualização de suas páginas.
-
-Substitua o conteúdo de new.html.erb (app/views/posts/new.html.erb):
+#Agora você irá alterar o conteúdo das views para melhorar a visualização de suas páginas.
+Substitua o conteúdo de new.html.erb (app/views/posts/new.html.erb):#
 
 - </br></br> <h1 class="title is-1">Nova Publicação</h1> 
  
-<%= render 'form', post: @post %>
+- <%= render 'form', post: @post %>
 
 # Depois sobrescreva o código do arquivo que contém o formulário para criação de uma nova publicação (app/views/posts/_form.html.erb):
 
