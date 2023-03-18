@@ -83,11 +83,8 @@ Substitua o conteúdo de new.html.erb (app/views/posts/new.html.erb):#
 config.active_storage.service = :cloudinary
 
 # Carregamentos diretos
-O Active Storage já oferece suporte ao upload direto do cliente para a nuvem. Depois de adicionar o Cloudinary como um serviço, use o upload direto como de costume:
-
-Inclua activestorage.js no pacote JavaScript do seu aplicativo.
-
-Usando o pipeline de ativos:# 
+O Active Storage já oferece suporte ao upload direto do cliente para a nuvem. Depois de adicionar o Cloudinary como um serviço, use o upload direto como de costume: Inclua activestorage.js no pacote JavaScript do seu aplicativo.
+Usando o pipeline de ativos:# em app/javascript/packs/application.js:#
 
 - require("@rails/activestorage").start()
 
