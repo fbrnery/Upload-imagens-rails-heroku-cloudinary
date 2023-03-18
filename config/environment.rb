@@ -4,4 +4,3 @@ config.gem 'cloudinary'
 
 # Initialize the Rails application.
 Rails.application.initialize!
-end
