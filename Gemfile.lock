@@ -264,7 +264,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   cloudinary
   devise
-  image_processing
+  image_processing (~> 1.2)
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)

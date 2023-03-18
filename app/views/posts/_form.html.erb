@@ -12,9 +12,8 @@
   <% end %>
  
   <div class="file">
-    <label class="file-label">
-     <%= form.file_field :avatar, direct_upload: true %>
-    </label>
+    <%= f.label :main_image %>
+    <%= f.file_field :main_image %>
   </div>
  
   </br>
