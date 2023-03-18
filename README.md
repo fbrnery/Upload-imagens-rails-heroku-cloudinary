@@ -96,7 +96,9 @@ Usando o pipeline de ativos:#
 $ heroku addons:create cloudinary
 
 # Por fim, adicione suas credenciais do Cloudinary, em Config Vars no Heroku: atenção os vars tem de estar nesse formato:
-- API_KEY:*************, API_SECRET:***********, Cloud_Name:***********
+- API_KEY:*************,
+-  API_SECRET:***********, 
+-  Cloud_Name:***********
 
 #Pronto seu app, está pronto p realizar upload de imagens no seu app.#
 
