@@ -8,9 +8,7 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bulma/css/bulma.css";
-require 'cloudinary'
-require 'cloudinary/uploader'
-require 'cloudinary/utils'
+
 
 Rails.start()
 Turbolinks.start()
