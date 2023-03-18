@@ -8,7 +8,8 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-full is-marginless is-3by1">
-            <%= image_tag post.featured_image %>
+            <%= cl_image_tag(post.avatar.key, width: 300, height: 200) %>
+          
           </figure>
         </div>
         <div class="card-content">

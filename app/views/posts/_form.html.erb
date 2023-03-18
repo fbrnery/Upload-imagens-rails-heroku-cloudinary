@@ -13,15 +13,7 @@
  
   <div class="file">
     <label class="file-label">
-      <%= form.file_field :featured_image, class: 'file-input' %>
-      <span class="file-cta">
-        <span class="file-icon">
-          <i class="fas fa-upload"></i>
-        </span>
-        <span class="file-label">
-          Escolha a imagem de destaque…
-        </span>
-      </span>
+     <%= form.file_field :avatar, direct_upload: true %>
     </label>
   </div>
  
