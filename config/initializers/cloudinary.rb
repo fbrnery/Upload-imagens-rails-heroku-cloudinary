@@ -6,3 +6,4 @@ Cloudinary.config do |config|
 end
 end
 end
+end
