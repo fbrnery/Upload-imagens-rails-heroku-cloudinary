@@ -4,6 +4,3 @@ Cloudinary.config do |config|
   config.api_secret = '2CbVskfjBvGklXnm68pBJgCB22w'
   config.secure = true
 end
-end
-end
-end
