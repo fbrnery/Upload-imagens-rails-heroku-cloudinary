@@ -39,10 +39,6 @@
 - end
 
 # Ajustando as Views
-#Agora você irá alterar o conteúdo das views para melhorar a visualização de suas páginas.
-Substitua o conteúdo de new.html.erb (app/views/posts/new.html.erb):#
- 
-- <%= render 'form', post: @post %>
 
 # Depois sobrescreva o código do arquivo que contém o formulário para criação de uma nova publicação (app/views/posts/_form.html.erb):#
 
@@ -54,12 +50,7 @@ Substitua o conteúdo de new.html.erb (app/views/posts/new.html.erb):#
 
 
 # Sobrescreva o código de exibição de uma Publicação (app/views/posts/show.html.erb): #
-
-<div class="columns">
-  <div class="column">
-    <p class="title"><%= @post.title %></p> 
-  </div>
-</div></br></br>
+- <%= image_tag @post.avatar %>
   
   # Por fim, adicione o componente card dentro da coluna criada anteriormente para exibir uma prévia da publicação, em (app/views/posts/index.html.erb): #
   #Entrega de imagem, Use o método cl_image_tag para gerar uma tag de imagem HTML ou use o método cloudinary_url para gerar uma URL de transformação.#
