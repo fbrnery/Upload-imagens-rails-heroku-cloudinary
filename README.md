@@ -1,6 +1,6 @@
 # Gerar o projeto #
 
-- $ rails generate upload -d postgresql
+- $ rails new upload -d postgresql
 
 # Gerar o banco de dados #
 
